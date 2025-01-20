@@ -1,6 +1,5 @@
 import './App.css'
-import Profile from "./pages/User.jsx";
-import ShoppingList from "./pages/ProductList.jsx";
+import MyButton from "./components/MyButton.jsx";
 
 function App() {
 
@@ -8,7 +7,8 @@ function App() {
   return (
     <>
       {/*<Profile/>*/}
-        <ShoppingList/>
+        {/*<ShoppingList/>*/}
+        <MyButton/>
     </>
   )
 }
